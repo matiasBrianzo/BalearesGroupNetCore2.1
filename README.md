@@ -8,3 +8,67 @@ CREATE TABLE NegocioControl (
 		[HorarioCierre] nvarchar(255),
 		PRIMARY KEY( [id] )
 	);
+
+Insert
+
+
+GO
+
+INSERT INTO [dbo].[NegocioControl]
+           ([Negocio]
+           ,[DiaDeLaSemana]
+           ,[HorarioApertura]
+           ,[HorarioCierre])
+     VALUES
+           ('Demo'
+           ,'Lunes'
+           ,'08:30'
+           ,'18:30')
+GO
+
+INSERT INTO [dbo].[NegocioControl]
+           ([Negocio]
+           ,[DiaDeLaSemana]
+           ,[HorarioApertura]
+           ,[HorarioCierre])
+     VALUES
+           ('Demo'
+           ,'Martes'
+           ,'08:30'
+           ,'18:30')
+GO
+
+INSERT INTO [dbo].[NegocioControl]
+           ([Negocio]
+           ,[DiaDeLaSemana]
+           ,[HorarioApertura]
+           ,[HorarioCierre])
+     VALUES
+           ('Demo'
+           ,'Miercoles'
+           ,'08:30'
+           ,'18:30')
+GO
+
+INSERT INTO [dbo].[NegocioControl]
+           ([Negocio]
+           ,[DiaDeLaSemana]
+           ,[HorarioApertura]
+           ,[HorarioCierre])
+     VALUES
+           ('Demo'
+           ,'Jueves'
+           ,'08:30'
+           ,'18:30')
+GO
+INSERT INTO [dbo].[NegocioControl]
+           ([Negocio]
+           ,[DiaDeLaSemana]
+           ,[HorarioApertura]
+           ,[HorarioCierre])
+     VALUES
+           ('Demo'
+           ,'Viernes'
+           ,'08:30'
+           ,'18:30')
+GO
